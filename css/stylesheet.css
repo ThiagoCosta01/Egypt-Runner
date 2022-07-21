@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(168, 168, 168);
 
 
 }
@@ -86,3 +86,34 @@ body{
     }
 }
 
+@keyframes cloud-animation{
+
+    from{
+        right: -300px
+    }
+    to{
+        right: 100%
+    }
+
+
+}
+
+.clouds{
+
+    position: absolute;
+    height: 100px;
+    width: 34%;
+    top: 130px;
+    right: -300px;
+    animation: cloud-animation 15s infinite linear;
+}
+
+.centro{
+
+    position: absolute;
+    text-align: center;
+    background-color: rgb(5, 7, 10);
+    margin-left: 40%;
+    color: rgb(232, 234, 235);
+
+}
