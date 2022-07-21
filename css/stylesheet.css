@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.container{
+
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    padding: 0;
+    width: 900px;
+    height: 439px;
+    position: relative;
+    overflow: hidden;
+}
+
+.scene{
+
+    margin: 0 auto;
+    padding: 0;
+   
+    justify-content: center;
+    position: absolute;
+
+}
+
+.girl {
+
+    position: absolute;
+    /* bottom: 95px; */
+    bottom: 42px;
+    left: 0;
+    width: 220px;
+    
+
+}
+
+.jump{
+
+    animation: girl-animation 500ms ease-out;
+
+}
+
+.bat{
+
+    position: absolute;
+    right: -80px;
+    bottom: 20px;
+    width: 100px;
+    animation: bat-animation 1s infinite linear;
+}
+
+
+@keyframes bat-animation {
+    from{
+        right: -80px;
+    }
+    to{
+        right: 100%;
+    }
+}
+
+@keyframes girl-animation{
+    0%{
+        bottom: 42px;
+    }
+    40%{
+        bottom: 182px;
+    }
+    50%{
+        bottom: 182px;
+    }
+    60%{
+        bottom: 182px;
+    }
+    100%{
+        bottom: 42px;
+    }
+}
+
