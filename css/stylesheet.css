@@ -32,6 +32,12 @@ body{
 
 }
 
+.volume{
+
+    position: absolute;
+
+}
+
 .girl {
 
     position: absolute;
@@ -40,6 +46,14 @@ body{
     left: 0;
     width: 220px;
     
+
+}
+
+.song{
+
+    position: absolute;
+    right: 0;
+
 
 }
 
@@ -72,13 +86,13 @@ body{
     0%{
         bottom: 42px;
     }
-    40%{
+    48%{
         bottom: 182px;
     }
     50%{
         bottom: 182px;
     }
-    60%{
+    52%{
         bottom: 182px;
     }
     100%{
@@ -115,5 +129,17 @@ body{
     background-color: rgb(5, 7, 10);
     margin-left: 40%;
     color: rgb(232, 234, 235);
+
+}
+
+.buttonMusic{
+
+    position: absolute;
+    right: 0;
+    height: 80px;
+    width: 100px;
+    background-color: rgba(61, 31, 31, 0);
+    border: none;
+
 
 }
